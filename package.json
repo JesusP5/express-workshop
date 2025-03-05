@@ -5,16 +5,29 @@
   "keywords": [
     "api",
     "rest",
-    "node"
+    "node",
+    "express"
   ],
   "license": "ISC",
   "author": "Alejandro Peña",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusP5/express-workshop.git"
   },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "bugs": {
+    "url": "https://github.com/JesusP5/express-workshop/issues"
+  },
+  "homepage": "https://github.com/JesusP5/express-workshop#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
