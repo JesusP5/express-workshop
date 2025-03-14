@@ -21,7 +21,9 @@
     "url": "git+https://github.com/JesusP5/express-workshop.git"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
   },
   "bugs": {
     "url": "https://github.com/JesusP5/express-workshop/issues"
