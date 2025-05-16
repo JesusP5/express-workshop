@@ -8,6 +8,6 @@ module.exports=(req, res, next) =>{
         next();
     }
     catch(error){
-        return res.status(401).json({code: 401, message: "No tienes permiso :("})
+        return res.status(401).json({code: 401, message: "No tienes permisos"})
     }
 }
